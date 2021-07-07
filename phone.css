@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* navber */
+nav {
+  flex-direction: column;
+  height: 106px;
+}
+.name h1 {
+  align-items: center;
+}
+.menu {
+  align-items: center;
+  top: 66px;
+}
+.menu li a {
+  padding: 6px 9px;
+  font-size: 15px;
+}
+/* Home */
+.home div {
+  margin: 0px 10px;
+  position: relative;
+  top: 24px;
+}
+/* section */
+.box-leder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box-container .box {
+  width: 22rem;
+  margin: 6px;
+}
+.box img {
+  height: 187px;
+  width: 348px;
+}
+/* section-2 */
+.section-2 {
+  flex-direction: column;
+}
+.section-2 ul li::after {
+  left: 36px;
+}
+.section-2 #item-1 {
+  height: 15rem;
+  width: 13rem;
+  margin-right: 0px;
+}
+.section-2 #item-2 {
+  width: 22rem;
+  margin-right: 0px;
+  position: relative;
+  top: 139px;
+}
+.section-2 ul li {
+  margin-left: -4px;
+  padding: 13px 0px;
+}
+.section-2 #item-2 h1 {
+  position: relative;
+  left: 55px;
+  margin: 0px;
+}
+.section-2 ul li::before {
+  width: 71%;
+}
+/* section-3 */
+.section-3 {
+  position: relative;
+  top: 275px;
+  margin: 0px 2px;
+}
+#main-1 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main-2 {
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+#main-2 form {
+  display: flex;
+  flex-direction: column;
+}
+#main-1 ul li {
+  padding: 10px 16px;
+}
+#main-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > input {
+  top: 399px;
+  left: 108px;
+}
+
+/* section-4 */
+.section-4 {
+  height: 60px;
+  width: 356px;
+}
