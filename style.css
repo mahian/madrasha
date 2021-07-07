@@ -199,7 +199,7 @@ nav {
 .section-2 ul li::after {
   content: "";
   position: absolute;
-  left: 799px;
+  left: 915px;
   background-color: red;
   height: 4%;
   width: 0;
